@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Google Contacts Extension",
+  "version": "1.0",
+  "description": "A Chrome extension to manage Google Contacts",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open Google Contacts"
+  },
+  "permissions": ["identity", "identity.email", "tabs"],
+  "oauth2": {
+    "client_id": "71195438593-d8s5i82lue1fpq97bt29mka4n80mjgc0.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/contacts.readonly",
+      "https://www.googleapis.com/auth/userinfo.profile",
+      "https://www.googleapis.com/auth/userinfo.email",
+      "https://www.googleapis.com/auth/contacts"
+    ]
+  }
+}
