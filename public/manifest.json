@@ -5,7 +5,7 @@
   "description": "A Chrome extension to manage Google Contacts",
   "action": {
     "default_popup": "index.html",
-    "default_title": "Open Google Contacts"
+    "default_title": "Google Contacts"
   },
   "permissions": ["identity", "identity.email", "tabs"],
   "oauth2": {
